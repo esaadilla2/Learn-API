@@ -57,7 +57,7 @@ app.get("/limas/:tl/:ts/:sa", (request, response) => {
 })
 
 // fourth endpoint: tabung
-app.get("/tabung/:r/:t/", (request, response) => {
+app.get("/tabung/:r/:t", (request, response) => {
     // r = jari-jari
     // t = tinggi tabung
     // tampung data yang dikirimkan
